@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(185, 173, 173);
+}
+
+#Outline{
+    display: block;
+    width: 250px;
+    height: 460px;
+    background-color: rgb(37, 31, 33);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(231, 62, 90);
+    border-radius: 30px;
+}
+#small{
+    display: block;
+    width: 70px;
+    height: 10px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+#screen{
+    display: block;
+    width: 180px;
+    height: 200px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Number{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#container{
+    display: block;
+    width: 180px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+.buttons{
+    width: 54px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(65, 62, 64);
+    float: left;
+    margin: 3px;
+    border-radius: 5px;
+    border: 1px solid  rgb(231, 62, 90);
+    
+}
+button{
+    text-align: center;
+    padding: 7px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(231, 62, 90);
+}
+.buttons:hover{
+    background-color: rgb(119, 117, 119);
+    color: rgb(223, 22, 55);
+    transition: 0.05s ease;
+    cursor: pointer;
+}
